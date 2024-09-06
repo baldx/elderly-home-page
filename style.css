@@ -37,9 +37,12 @@ aside {
     background: var(--blue);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     display: flex;
     font-size: 1.5em;
@@ -55,4 +58,35 @@ ul {
 
 a {
     color: black;
+}
+
+ img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-top: 1em;
+}
+
+hr {
+    width: 80%;
+    height: 1px;
+    background: #0C1618;
+    border: none;
+}
+
+.profile-picture {
+    height: 25vh;
+}
+
+aside ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 1.5em;
+    gap: 1em;
+    margin: 1em;
+    padding-right: 1em;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
 }
