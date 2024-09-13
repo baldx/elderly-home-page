@@ -21,10 +21,32 @@
         <img src="/assets/Default_pfp.svg.png" alt="profile picture">
         <hr>
         <ul>    
-            <li><a href="/index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="#">Chats</a></li>
             <li><a href="#">Friends</a></li>
         </ul>
     </aside>
+
+    <main class="forum">
+        <button id="createBtn">create forum</button>
+        <form>
+            <label for="title">
+                Title:
+                <input type="text" name="title" id="title" min="3" max="50">
+            </label>
+
+            <label for="author">
+                Author:
+                <input type="text" name="author" id="author" min="3" max="20">
+            </label>
+
+            <label for="message">
+                Message:
+                <textarea name="message" id="message"></textarea>
+            </label>
+
+            <button type="submit" id="submit">submit</button>
+        </form>
+    </main>
 </body>
 </html>
